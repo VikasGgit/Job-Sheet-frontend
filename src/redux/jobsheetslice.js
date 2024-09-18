@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // Base URL for API
-const API_URL = "http://localhost:5000/api/jobsheets";
+const API_URL = "https://job-sheet-backend-jbvw.onrender.com/api/jobsheets";
 
 // Fetch all jobsheets
 export const fetchJobsheets = createAsyncThunk(
